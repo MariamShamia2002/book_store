@@ -1,0 +1,62 @@
+
+.hero{
+  padding: 90px 0;
+  background-image: url(../Images/fanned-out-book-pages-against-a-pink-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+.hero .content{
+    width:65%;
+    margin: 0 auto;
+    text-align: center;
+}
+.hero .content form {
+    position: relative;
+ 
+}
+.hero .content form button{
+    position: absolute;
+    right: 5px;
+    top:7px;
+    background: transparent;
+    border: 0;
+}
+.form-login{
+    padding: 130px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.form-login form{
+    width:500 px;
+    text-align: left;
+    margin-top:20px;
+
+    
+}
+.form-login .content form input{
+    display: block;
+    width: 100%;
+    padding :5px 10px;
+    border: 1px solid #e6e6e6 ;
+    border-radius: 3px;
+
+
+}
+form .input-form{
+    margin-bottom: 15px;
+    
+}
+.form-login  .content form .submit-btn{
+    width:100%;
+    padding:7px ;
+    border:0px;
+    background-color:#106e0f;
+    color:white;
+    border-radius: 3px;
+    
+}
